@@ -20,4 +20,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     # path('', include('hello_world.urls')),  # Delete this line
     path("projects/", include("projects.urls")),
+    path("blog/", include("blog.urls")),
 ]
